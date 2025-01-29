@@ -10,4 +10,5 @@ How to use:
 - Add "Raycast" prefab into hierachy. Populate Right Hand and/or Left Hand with the OVRHands from your OVRRig setup. Do the same with palms (see tooltips for nomenclature).
 - Use a target layer to filter raycast hits
 - Can use method "ObjectHit()" to handle hits
+- **NOTE** Recommend changing "HandJointId.HandIndex0" to "HandJointId.HandIndex1" in the method "CalculatePinchPosition()" in the main script for truer pinch point accuracy. 
 
